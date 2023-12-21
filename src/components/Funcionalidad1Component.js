@@ -55,15 +55,6 @@ const products = [
         href: '/product1',
       },
       {
-        id: 7,
-        name: 'Product 1',
-        color: 'Red',
-        price: '$19.99',
-        imageSrc: 'https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        imageAlt: 'Product 1 Image',
-        href: '/product1',
-      },
-      {
         id: 8,
         name: 'Product 1',
         color: 'Red',
