@@ -1,80 +1,79 @@
 import React, { Component } from 'react'
-// import background from '../assets/images/pexels-jakub-zerdzicki-18991663.jpg'
-// const products = [
-//     {
-//       id: 1,
-//       name: 'Product 1',
-//       color: 'Red',
-//       price: '$19.99',
-//       imageSrc: 'https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-//       imageAlt: 'Product 1 Image',
-//       href: '/product1',
-//     },
-//     {
-//       id: 2,
-//       name: 'Product 2',
-//       color: 'Blue',
-//       price: '$29.99',
-//       imageSrc: 'https://images.pexels.com/photos/1682699/pexels-photo-1682699.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load',
-//       imageAlt: 'Product 2 Image',
-//       href: '/product2',
-//     },
-//     {
-//         id:3,
-//         name: 'Product 2',
-//         color: 'Blue',
-//         price: '$29.99',
-//         imageSrc: 'https://images.pexels.com/photos/1682699/pexels-photo-1682699.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load',
-//         imageAlt: 'Product 2 Image',
-//         href: '/product2',
-//       },
-//       {
-//         id: 4,
-//         name: 'Product 2',
-//         color: 'Blue',
-//         price: '$29.99',
-//         imageSrc: 'https://images.pexels.com/photos/1682699/pexels-photo-1682699.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load',
-//         imageAlt: 'Product 2 Image',
-//         href: '/product2',
-//       },
-//       {
-//         id: 5,
-//         name: 'Product 2',
-//         color: 'Blue',
-//         price: '$29.99',
-//         imageSrc: 'https://images.pexels.com/photos/1682699/pexels-photo-1682699.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load',
-//         imageAlt: 'Product 2 Image',
-//         href: '/product2',
-//       },
-//       {
-//         id: 6,
-//         name: 'Product 1',
-//         color: 'Red',
-//         price: '$19.99',
-//         imageSrc: 'https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-//         imageAlt: 'Product 1 Image',
-//         href: '/product1',
-//       },
-//       {
-//         id: 7,
-//         name: 'Product 1',
-//         color: 'Red',
-//         price: '$19.99',
-//         imageSrc: 'https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-//         imageAlt: 'Product 1 Image',
-//         href: '/product1',
-//       },
-//       {
-//         id: 8,
-//         name: 'Product 1',
-//         color: 'Red',
-//         price: '$19.99',
-//         imageSrc: 'https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-//         imageAlt: 'Product 1 Image',
-//         href: '/product1',
-//       },
-//     // Add more products as needed
-//   ]
+import background from '../assets/images/pexels-jakub-zerdzicki-18991663.jpg'
+const products = [
+    {
+      id: 1,
+      dd: 'Product 1',
+      color: 'Red',
+      price: '$19.99',
+      imageSrc: 'https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      imageAlt: 'Product 1 Image',
+      href: '/product1',
+    },
+    {
+      id: 2,
+      name: 'Product 2',
+
+      imageSrc: 'https://images.pexels.com/photos/1682699/pexels-photo-1682699.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load',
+      imageAlt: 'Product 2 Image',
+      href: '/product2',
+    },
+    {
+        id:3,
+        name: 'Product 2',
+        color: 'Blue',
+        price: '$29.99',
+        imageSrc: 'https://images.pexels.com/photos/1682699/pexels-photo-1682699.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load',
+        imageAlt: 'Product 2 Image',
+        href: '/product2',
+      },
+      {
+        id: 4,
+        name: 'Product 2',
+
+        price: '$29.99',
+        imageSrc: 'https://images.pexels.com/photos/1682699/pexels-photo-1682699.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load',
+        imageAlt: 'Product 2 Image',
+        href: '/product2',
+      },
+      {
+        id: 5,
+        name: 'Product 2',
+        color: 'Blue',
+
+        imageSrc: 'https://images.pexels.com/photos/1682699/pexels-photo-1682699.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load',
+        imageAlt: 'Product 2 Image',
+        href: '/product2',
+      },
+      {
+        id: 6,
+        name: 'Product 1',
+        color: 'Red',
+        price: '$19.99',
+        imageSrc: 'https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imageAlt: 'Product 1 Image',
+        href: '/product1',
+      },
+      {
+        id: 7,
+        name: 'Product 1',
+        color: 'Red',
+        price: '$19.99',
+        imageSrc: 'https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imageAlt: 'Product 1 Image',
+        href: '/product1',
+      },
+      {
+        id: 8,
+        name: 'Product 1',
+        color: 'Red',
+        price: '$19.99',
+        imageSrc: 'https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imageAlt: 'Product 1 Image',
+        href: '/product1',
+      },
+    // Add more products as needed
+  ]
 export default class Home extends Component {
   render() {
     // const selectedProduct = products.filter((product) => product.id === 3)[0];
