@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import background from '../assets/images/pexels-jakub-zerdzicki-18991663.jpg'
-const products = [
+const productos = [
     {
       id: 1,
       dd: 'Product 1',
